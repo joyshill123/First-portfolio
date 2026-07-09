@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #fff;
+  padding: 15px 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #ff9800;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.button {
+  background: #ff9800;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-outline {
+  background: transparent;
+  border: 2px solid #ff9800;
+  padding: 10px 20px;
+  color: #ff9800;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hom{
+  background-color: #f8eedb;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  background: #f8eedb;
+  padding: 0 30px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image img {
+  width: 350px;
+}
+.about{
+    background-color:#f8eedb ;
+    text-align: center;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 40px 10px;
+    max-width: 1200px;
+
+    /* font-weight: bold; */
+}
+.about p{
+  margin: 10px 0;
+}
+.box1{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.box{
+  background-color:#fae8c6;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* what i do content css */
+.what{
+  font-size: 19px;
+  margin: 60px auto;
+  text-align: center;
+  max-width: 1200px;
+}
+.what-card{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+.card{
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: left;
+  padding: 8px;
+  box-shadow:  0px 4px 10px rgba(0,0,0,0.2);
+  width: 267px;
+  height: 377px;
+}
+.card h3{
+  padding: 15px 0;
+}
+.card img{
+  padding: 10px;
+}
+.card p{
+  font-size: 20px;
+}
